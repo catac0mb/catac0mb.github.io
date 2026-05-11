@@ -53,21 +53,43 @@ body {
   padding: 60px 24px; 
 } 
 
-.hero { 
-  display: flex; 
-  flex-wrap: wrap; 
-  align-items: center; 
-  gap: 40px; 
-  margin-bottom: 80px; 
-} 
+.hero {
+  display: flex;
+  align-items: flex-start;
+  gap: 3rem;
+  margin-top: 3rem;
+}
 
-.profile-image { 
+.hero-left {
+  width: 260px;
+  flex-shrink: 0;
+}
+
+.profile-image {
   width: 220px; 
   height: 220px; 
-  object-fit: cover; 
-  border-radius: 12px; 
-  box-shadow: 0 4px 18px rgba(0,0,0,0.08); 
-} 
+  border-radius: 12px;
+  display: block;
+}
+
+.contact-card {
+  margin-top: 1.5rem;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.contact-card a {
+  color: #333;
+  text-decoration: none;
+}
+
+.contact-card a:hover {
+  text-decoration: underline;
+}
+
+.hero-text {
+  flex: 1;
+}
 
 .poster-image { 
   width: 100%; 
@@ -77,10 +99,6 @@ body {
   box-shadow: 0 4px 18px rgba(0,0,0,0.08); 
 } 
 
-.hero-text { 
-  flex: 1; 
-  min-width: 280px; 
-} 
 
 h1 { 
   font-size: 2.6rem; 

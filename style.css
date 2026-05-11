@@ -124,12 +124,34 @@ body {
 section a {
   color: #666;
   text-decoration: none;
-  transition: color 0.2s ease;
+  position: relative;
 }
 
+/* animated underline */
+.hero-text a::after,
+section a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 1px;
+  background: #ddd;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+/* hover effect */
 .hero-text a:hover,
 section a:hover {
-  color: #111;
+  background: linear-gradient(90deg, #f6d365, #fda085);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.hero-text a:hover::after,
+section a:hover::after {
+  background: #f6a85a;
 }
 
 .poster-image { 

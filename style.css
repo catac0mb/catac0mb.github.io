@@ -143,16 +143,16 @@ body {
 
 .hero-text a,
 section a {
-  color: #2f6fed;              /* soft but visible blue */
+  color: #3f5fbf;              /* muted academic blue */
   text-decoration: none;
-  border-bottom: 1px solid rgba(47, 111, 237, 0.25);
-  transition: all 0.2s ease;
+  border-bottom: 1px solid rgba(63, 95, 191, 0.35);
+  transition: color 0.2s ease, border-color 0.2s ease;
 }
 
 .hero-text a:hover,
 section a:hover {
-  color: #1a4fd8;
-  border-bottom: 1px solid rgba(26, 79, 216, 0.7);
+  color: #1f3f99;
+  border-bottom: 1px solid rgba(31, 63, 153, 0.8);
 }
 
 /* =========================

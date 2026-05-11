@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Caitlin Johnson | Research Portfolio</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background-color: #fafafa;
+      color: #222;
+      line-height: 1.7;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 60px 24px;
+    }
+
+    .hero {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 40px;
+      margin-bottom: 80px;
+    }
+
+    .profile-image {
+      width: 220px;
+      height: 220px;
+      object-fit: cover;
+      border-radius: 12px;
+      box-shadow: 0 4px 18px rgba(0,0,0,0.08);
+    }
+
+    .hero-text {
+      flex: 1;
+      min-width: 280px;
+    }
+
+    h1 {
+      font-size: 2.6rem;
+      margin-bottom: 10px;
+      font-weight: 600;
+      letter-spacing: -0.03em;
+    }
+
+    .subtitle {
+      font-size: 1.1rem;
+      color: #666;
+      margin-bottom: 28px;
+    }
+
+    p {
+      margin-bottom: 18px;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 12px 20px;
+      background-color: #222;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: background-color 0.2s ease;
+      font-size: 0.95rem;
+    }
+
+    .button:hover {
+      background-color: #444;
+    }
+
+    section {
+      margin-bottom: 70px;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      margin-bottom: 20px;
+      font-weight: 600;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 10px;
+    }
+
+    .project {
+      margin-bottom: 32px;
+    }
+
+    .project-title {
+      font-size: 1.1rem;
+      font-weight: 600;
+      margin-bottom: 6px;
+    }
+
+    .project-description {
+      color: #555;
+    }
+
+    footer {
+      margin-top: 80px;
+      color: #777;
+      font-size: 0.9rem;
+      text-align: center;
+    }
+
+    a {
+      color: #1a73e8;
+    }
+
+    @media (max-width: 700px) {
+      .hero {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .profile-image {
+        width: 180px;
+        height: 180px;
+      }
+
+      h1 {
+        font-size: 2.1rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <section class="hero">
+      <img src="images/profile.jpg" alt="Profile photo"
+           class="profile-image">
+
+      <div class="hero-text">
+        <h1>Caitlin Johnson</h1>
+
+        <div class="subtitle">
+          Machine Learning & Human-Computer Interaction Researcher
+        </div>
+
+        <p>
+          I research machine learning systems that support human decision-making,
+          with a focus on explainability, visualization, and human-AI interaction.
+          My work explores how interactive visual interfaces and interpretable
+          machine learning methods can improve trust, usability, and analytical
+          reasoning in complex domains such as autonomous systems and scientific data analysis.
+        </p>
+
+        <a class="button" href="files/Caitlin_Johnson_CV.pdf" download>
+          Download CV
+        </a>
+      </div>
+    </section>
+
+    <section>
+      <h2>Research Interests</h2>
+
+      <p>
+        My research lies at the intersection of machine learning, visualization,
+        and human-computer interaction. I am particularly interested in:
+      </p>
+
+      <ul>
+        <li>Explainable AI and interpretable machine learning</li>
+        <li>Human-centered AI systems</li>
+        <li>Visual analytics for scientific data</li>
+        <li>Interactive interfaces for AI-assisted decision-making</li>
+        <li>Autonomous systems and perception</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Selected Projects</h2>
+
+      <div class="project">
+        <div class="project-title">
+          Explainable Peak Detection for Chromatography
+        </div>
+
+        <div class="project-description">
+          Designed visual interfaces and explanation techniques for chromatogram
+          review workflows, integrating uncertainty visualization and natural
+          language explanations into analytical chemistry tools.
+        </div>
+      </div>
+
+      <div class="project">
+        <div class="project-title">
+          Reinforcement Learning for Autonomous Driving
+        </div>
+
+        <div class="project-description">
+          Developed deep reinforcement learning models combining image-based
+          perception with symbolic navigation commands for intersection navigation
+          and lane-following tasks.
+        </div>
+      </div>
+
+      <div class="project">
+        <div class="project-title">
+          Human-AI Interaction in Analytical Workflows
+        </div>
+
+        <div class="project-description">
+          Investigated how explainability and visualization influence user trust,
+          workload, and decision-making performance in AI-assisted scientific review tasks.
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+
+      <p>
+        Email:
+        <a href="mailto:jcaitlin@wustl.edu">
+          jcaitlin@wustl.edu
+        </a>
+      </p>
+
+      <p>
+        GitHub:
+        <a href="https://github.com/catac0mb">
+          github.com/catac0mb
+        </a>
+      </p>
+    </section>
+
+    <footer>
+      © 2026 Caitlin Johnson
+    </footer>
+
+  </div>
+
+</body>
+</html>

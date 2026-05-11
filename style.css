@@ -69,9 +69,8 @@ body {
 
 .hero {
   display: flex;
+  gap: 2rem;
   align-items: flex-start;
-  gap: 3rem;
-  margin-top: 3rem;
 }
 
 .hero-left {

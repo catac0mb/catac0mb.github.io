@@ -143,18 +143,17 @@ body {
 
 .hero-text a,
 section a {
-  color: #555;
+  color: #2f6fed;
   text-decoration: none;
-  border-bottom: 1px solid rgba(0,0,0,0.15);
-  transition: color 0.2s ease, border-color 0.2s ease;
+  border-bottom: 1px solid rgba(47, 111, 237, 0.25);
+  padding-bottom: 1px;
 }
 
 .hero-text a:hover,
 section a:hover {
-  color: #000;
-  border-bottom: 1px solid rgba(0,0,0,0.4);
+  color: #1a4fd8;
+  border-bottom: 1px solid #1a4fd8;
 }
-
 
 /* =========================
    BUTTON

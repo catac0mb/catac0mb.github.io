@@ -60,6 +60,27 @@ body {
   margin-top: 3rem;
 }
 
+
+.social-icons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.social-icons a {
+  color: #333;
+  font-size: 1.8rem;
+  transition: color 0.2s ease;
+}
+
+.social-icons a:hover {
+  color: #0077b5; /* LinkedIn blue */
+}
+
+.social-icons a:first-child:hover {
+  color: #000;
+}
+
 .hero-left {
   width: 260px;
   flex-shrink: 0;

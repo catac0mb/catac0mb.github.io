@@ -104,11 +104,12 @@ body {
 .contact-card a {
   color: #444;
   text-decoration: none;
+  transition: color 0.2s ease;
 }
 
 .contact-card a:hover {
   color: #111;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .social-icons {
@@ -120,6 +121,7 @@ body {
 .social-icons a {
   font-size: 2rem;
   color: #444;
+  text-decoration: none;
   transition: color 0.2s ease, transform 0.2s ease;
 }
 
@@ -137,25 +139,26 @@ body {
 
 
 /* =========================
-   LINKS (FIXED + CONSISTENT)
-   subtle but clearly visible
+   LINKS (GLOBAL CONSISTENT STYLE)
+   NO UNDERLINES ANYWHERE
 ========================= */
 
 .hero-text a,
 section a {
-  color: #2f57c6;          /* clear but not neon blue */
+  color: #2f57c6;
   text-decoration: none;
-  transition: all 0.2s ease;
   padding: 0 2px;
   border-radius: 4px;
+  transition: all 0.2s ease;
 }
 
-/* hover = visible without underline */
 .hero-text a:hover,
 section a:hover {
   background-color: rgba(47, 87, 198, 0.10);
   color: #1f3f99;
 }
+
+
 /* =========================
    BUTTON
 ========================= */
@@ -233,14 +236,6 @@ footer {
   font-size: 0.9rem;
   text-align: center;
 }
-
-
-/* =========================
-   GLOBAL LINKS (REMOVED FIX)
-   IMPORTANT: do NOT override everything
-========================= */
-
-/* removed broken global a { color: #1a73e8 } */
 
 
 /* =========================

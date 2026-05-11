@@ -143,19 +143,19 @@ body {
 
 .hero-text a,
 section a {
-  color: #3f5fbf;
+  color: #2f57c6;          /* clear but not neon blue */
   text-decoration: none;
-  border-bottom: 1px solid rgba(63, 95, 191, 0.25);
-  padding-bottom: 1px;
   transition: all 0.2s ease;
+  padding: 0 2px;
+  border-radius: 4px;
 }
 
+/* hover = visible without underline */
 .hero-text a:hover,
 section a:hover {
+  background-color: rgba(47, 87, 198, 0.10);
   color: #1f3f99;
-  border-bottom: 1px solid rgba(31, 63, 153, 0.9);
 }
-
 /* =========================
    BUTTON
 ========================= */

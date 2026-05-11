@@ -63,36 +63,32 @@ body {
 
 .social-icons {
   display: flex;
-  align-items: center;
-  gap: 1.5rem;
+  gap: 1.75rem;
   margin-top: 1rem;
 }
 
 .social-icons a {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-
   font-size: 2rem;
   color: #444;
-
   text-decoration: none;
+
   transition:
     color 0.2s ease,
     transform 0.2s ease;
 }
 
-/* GitHub */
-.social-icons a.github-icon:hover {
-  color: #000;
+.social-icons a:hover {
   transform: translateY(-2px);
 }
 
-/* LinkedIn */
-.social-icons a.linkedin-icon:hover {
-  color: #0077b5;
-  transform: translateY(-2px);
+.github-icon:hover {
+  color: #000;
 }
+
+.linkedin-icon:hover {
+  color: #0077b5;
+}
+
 
 .hero-left {
   width: 260px;
